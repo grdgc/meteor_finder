@@ -1,13 +1,13 @@
-# meteor_finder
-Python app to find meteor landings near your location using Python and NASA data.
+# find-close-meteorites
+A demo project that uses Python and NASA data to find meteor landing sites
 
+## Running
 
-# Running
 This project requires Python 3 and the requests package.
 
-# First, install Python pip:
-$ apt install python-pip
-# After that install pipenv:
-$ pip install pipenv
-# Then run the app:
-$ pipenv run "./find_meteors.py"
+First, install pipenv. Then:
+
+```shell
+pipenv install
+pipenv run "python meteors/find_meteors.py"
+```
